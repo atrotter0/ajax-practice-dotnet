@@ -32,6 +32,17 @@ function displayObject() {
   });
 }
 
+function displayView() {
+  $.ajax({
+    type: 'GET',
+    dataType: 'html',
+    url: '/Home/DisplayViewWithAjax',
+    success: function (result) {
+      $('#result4').html(result);
+    }
+  });
+}
+
 $(document).ready(function() {
   $('.hello-ajax').click(function () {
     helloAjax();
@@ -43,5 +54,9 @@ $(document).ready(function() {
 
   $('.display-object').click(function () {
     displayObject();
+  });
+
+  $('.display-view').click(function () {
+    displayView();
   });
 });

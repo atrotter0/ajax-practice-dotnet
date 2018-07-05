@@ -26,5 +26,10 @@ namespace AjaxPracticeProject.Controllers
             Destination destination = new Destination("Tokyo", "Japan", 1);
             return Json(destination);
         }
+
+        public ActionResult DisplayViewWithAjax()
+        {
+            return View();
+        }
     }
 }
