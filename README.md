@@ -1,18 +1,12 @@
-# Project Name Here
+# AJAX practice with .NET
 
-#### Epicodus C# exercise, date
+#### Epicodus C# AJAX Practice, 07.04.18
 
-#### By Your Name Here
+#### By Abel Trotter
 
 ## Description
 
-Add a description here
-
-## Specs
-
-| Behavior | Input | Output |
-|----------|-------|--------|
-| Behavior | input | output |
+A few simple exercises with AJAX calls and .NET
 
 ## Setup on OSX
 
@@ -34,13 +28,11 @@ Add a description here
 ## Technologies Used
 
 * .Net Core 1.1.4
-
-## Links
-
-* Add links here
+* JavaScript
+* jQuery
 
 ## License
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2018 **Your Name Here**
+Copyright (c) 2018 **Abel Trotter**
